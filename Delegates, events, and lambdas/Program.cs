@@ -22,13 +22,16 @@ namespace Delegates__events__and_lambdas
             switch (number)
             {
                 case 1:
-                    SimpleDelegates.WhatYime();
+                    SimpleDelegates.WhatTime();
                     break;
                 case 2:
                     DelegatesMath.DelegatMath();
                     break;
                 case 3:
                     TwoMethodsInDelegat.HelloHowAreYou();
+                    break;
+                case 4:
+                    NullDelegate.NullInDelegate(); ;
                     break;
                 default:
                     Console.WriteLine("Неправильный выбор.");

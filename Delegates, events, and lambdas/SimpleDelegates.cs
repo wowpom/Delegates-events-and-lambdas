@@ -7,7 +7,7 @@ namespace Delegates__events__and_lambdas
     delegate void Time();
     class SimpleDelegates
     {
-        public static void WhatYime()
+        public static void WhatTime()
         {
             Time time;
             if (DateTime.Now.Hour < 12)
