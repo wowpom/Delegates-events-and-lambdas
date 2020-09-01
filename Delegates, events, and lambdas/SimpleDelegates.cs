@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Delegates__events__and_lambdas
-{ delegate void Time();
+{ 
+    delegate void Time();
     class SimpleDelegates
     {
         public static void WhatYime()
@@ -17,11 +18,11 @@ namespace Delegates__events__and_lambdas
         }
         private static void Morning()
         {
-            Console.WriteLine("Доброе утро");
+            Console.WriteLine("Доброе утро\n");
         }
         private static void Evening()
         {
-            Console.WriteLine("Добрый вечер");
+            Console.WriteLine("Добрый вечер\n");
         }
     }
 }
